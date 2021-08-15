@@ -1,0 +1,5 @@
+Links to the SNLI dataset.
+
+Link to the paper: http://nlp.stanford.edu/pubs/snli_paper.pdf
+
+Link to the dataset: https://nlp.stanford.edu/projects/snli/
