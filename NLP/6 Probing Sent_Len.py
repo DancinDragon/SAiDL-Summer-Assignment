@@ -18,7 +18,7 @@ training_y = np.array(y_labels[10002:])
 ##PROBING MODEL
 Embeddings = Input(shape=(300,))
 x = Dense(128,activation="relu",use_bias=True)(Embeddings)
-x = Dense(9,activation="softmax",use_bias=True)(x)
+x = Dense(10,activation="softmax",use_bias=True)(x)
 model = Model(inputs=Embeddings,outputs=x)
 model.compile(optimizer="adam",loss="sparse_categorical_crossentropy",metrics="accuracy")
 #model.summary()
